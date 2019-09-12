@@ -1,0 +1,30 @@
+.movie {
+    width: 560px;
+    margin: 5px 5px;
+    border-top: solid 1px #d3d3d3;
+    border-bottom: solid 1px #d3d3d3;
+}
+
+.movie-poster {
+    display: inline-block;
+}
+
+.movie-detail {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.movie-title {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.movie-date {
+    font-style: italic;
+    font-size: 1em;
+}
+
+.movie-popularity {
+    font-size: 0.9em;
+}

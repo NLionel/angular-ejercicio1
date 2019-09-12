@@ -1,0 +1,9 @@
+<div>
+    <h2>Movie detail</h2>
+    <app-movie-full *ngIf="movie" [movie]="movie"></app-movie-full>
+    <div *ngIf="error" class="error">
+        {{ error }}
+    </div>
+    <br/><br/>
+    <button (click)="back()">Volver</button>
+</div>

@@ -1,0 +1,7 @@
+<div>
+    <h1>Popular Movies</h1>
+    <div *ngFor="let movie of movies">
+        <app-movie [movie]="movie"></app-movie>
+        <button [routerLink]="['/movies', movie.id ]" >Ver Detalle</button>   
+    </div>
+</div>

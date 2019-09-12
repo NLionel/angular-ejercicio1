@@ -1,0 +1,43 @@
+.movie {
+    width: 800px;
+    margin: 5px 5px;
+}
+
+.movie-poster {
+    display: inline-block;
+}
+
+.movie-detail {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+}
+
+.movie-title {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.movie-rate {
+    font-style: italic;
+    font-size: 1em;
+    margin: 10px 0px;
+}
+
+.movie-overview {
+    font-size: 1em;
+    width: 600px;
+    margin: 10px 0px;
+}
+
+.movie-runtime {
+    font-size: 1em;
+    width: 600px;
+    margin: 10px 0px;
+}
+
+.movie-revenue {
+    font-size: 1em;
+    width: 600px;
+    margin: 10px 0px;
+}

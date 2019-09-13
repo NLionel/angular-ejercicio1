@@ -1,5 +1,5 @@
 .movie {
-    width: 800px;
+    width: 1000px;
     margin: 5px 5px;
 }
 
@@ -26,7 +26,7 @@
 
 .movie-overview {
     font-size: 1em;
-    width: 600px;
+    width: 800px;
     margin: 10px 0px;
 }
 

@@ -9,6 +9,7 @@ export interface MovieDetail {
     vote_average: number;
     runtime: number;
     revenue: number;
+    poster_path: string;
 }
 
 /*
@@ -37,7 +38,7 @@ export interface MovieDetail {
   "imdb_id": "tt7349950",
   "original_language": "en",
   "original_title": "It Chapter Two",
-  "overview": "27 years after overcoming the malevolent supernatural entity Pennywise, the former members of the Losers' Club, who have grown up and moved away from Derry, are brought back together by a devastating phone call.",
+  "overview": "27 years after overcoming the malevolent supernatural entity Pennywise...",
   "popularity": 490.61,
   "poster_path": "/zfE0R94v1E8cuKAerbskfD3VfUt.jpg",
   "production_companies": [

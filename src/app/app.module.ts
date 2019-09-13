@@ -9,6 +9,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { DetailMovieComponent } from './movies/component/detail-movie/detail-movie.component';
 import { MoviesPageComponent } from './movies/pages/movies-page/movies-page.component';
 import { MovieFullComponent } from './movies/component/movie-full/movie-full.component';
+import { DatePipe } from './pipes/date.pipe';
+import { TimePipe } from './pipes/time.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { MovieFullComponent } from './movies/component/movie-full/movie-full.com
     MovieComponent,
     DetailMovieComponent,
     MoviesPageComponent,
-    MovieFullComponent
+    MovieFullComponent,
+    DatePipe,
+    TimePipe
   ],
   imports: [
     BrowserModule,

@@ -1,13 +1,13 @@
 <div class="movie" *ngIf="movie">
     <div class="movie-poster"><img src="https://image.tmdb.org/t/p/w185{{ movie.poster_path }}" /></div>
     <div class="movie-detail">
-        <div class="movie-title">{{ movie.original_title }} ({{ movie.release_date }})</div>
+        <div class="movie-title">{{ movie.original_title }} ({{ movie.release_date | date:'YEAR' }})</div>
         <div class="movie-rate"><strong>Score:</strong> {{ movie.vote_average }}</div>
         <div class="movie-overview">
             <strong>Overview</strong>
             <p>{{ movie.overview }}</p>
         </div>
-        <div class="movie-runtime"><strong>Runtime:</strong> {{ movie.runtime }}</div>
-        <div class="movie-revenue"><strong>Revenue:</strong> {{ movie.revenue }}</div>
+        <div class="movie-runtime"><strong>Runtime:</strong> {{ movie.runtime | time:'BEAUTY' }}</div>
+        <div class="movie-revenue"><strong>Revenue:</strong> {{ movie.revenue | currency:'USD':true:'1.2-2' }}</div>
     </div>
 </div>
